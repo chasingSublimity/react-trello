@@ -29,13 +29,9 @@ export default class ListContainer extends React.Component {
 			<List 
 			title={this.props.listTitles} 
 			cards={this.state.cards} 
-			onChange={this.onAddInputChanged}
-			onSubmit={this.onAddSubmit}
+			onAddInputChanged={this.onAddInputChanged}
+			onAddSubmit={this.onAddSubmit}
 			/>
 		);
 	}
-
 }
-
-//<List title='list1' cards={['bla', 'bloo', 'bee']} />
-				// <List title='list2' cards={['1bla', '1bloo', '1bee']} />

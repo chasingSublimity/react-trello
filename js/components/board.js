@@ -15,22 +15,3 @@ export default class Board extends React.Component {
 		);
 	}
 }
-
-// lists={['list 1', 'list 2']}
-
-
-
-				//<List title='list1' cards={['bla', 'bloo', 'bee']} />
-				// <List title='list2' cards={['1bla', '1bloo', '1bee']} />
-
-				// <Card text={cardText}/>
-				// <List title='list1' cards={['bla', 'bloo', 'bee']} />
-				// <Board title='board1' lists={['list1', 'list2']}
-
-			/*	<div className="board">
-					<h1>{this.props.title}</h1>
-					{this.props.lists.map(listTitle => 
-						<List title={listTitle} onAddSubmit={this.onAddSubmit} 
-						onAddInputChanged={this.onAddInputChanged} 
-						cards={['bla', 'bloo', 'bee']}/>)}
-				</div> */
